@@ -1,0 +1,67 @@
+.status {
+  border: 1px solid black;
+  border-radius: 50%;
+  text-align: center;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+}
+
+.choose {
+  cursor: pointer;
+}
+
+.stats-data, .stitle, .tasks-data, .ttitle {
+  /* width: 30%; */
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  flex-direction: row;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.stitle, .ttitle {
+  font-weight: bold;
+  border: none;
+  padding-top: 1%;
+}
+
+body {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.stats, .tasks {
+  width: 45%;
+  margin: 5%;
+}
+
+.stats-component, .tasks-component {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.choose__el {
+  margin: 5px;
+  cursor: pointer;
+}
+
+.numbers {
+  border: 1px black;
+  border-radius: 10px;
+  width: 30px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-weight: 900;
+}
+
+.choose {
+  text-decoration: underline;
+  cursor: pointer;
+}
